@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<PackageId>MyAwesomeLibrary</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Ilia</Authors>
+		<Company>SibFU</Company>
+		<Description>My first lib</Description>
+		<PackageTags>awesome utility tools</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl></RepositoryUrl>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(PackageId).xml</DocumentationFile>
+	</PropertyGroup>
+</Project>
